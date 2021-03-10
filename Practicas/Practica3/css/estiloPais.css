@@ -1,0 +1,114 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+header img{
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-left: 20px;
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+nav#himno{
+    float: right;
+}
+li{
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+
+}
+
+a.active {
+    color: red;
+}
+
+article {
+    margin-left: 100px;
+    border-left: 1px solid 
+    gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-repeat: no-repeat; /*no-repeat;*/
+    /*  background-size:300px 180px;*/
+}
+
+p{
+  margin-left: 300px;
+    margin-right: 290px;
+    text-align: justify;
+}
+
+h1{
+  text-align: center; 
+  font-size: 150%;
+}
+h1#titulo{
+    text-align: center;
+    margin-left: 20%;
+    font-size: 150%;
+}
+
+
+
+#mexico{
+  color:green;
+}
+
+#londres{
+  color:red;
+}
+
+#paris{
+  color:blue;
+}
+
+#tokyo{
+  color:FireBrick;
+}
+iframe#vid, video#v{
+    float: right;
+    width: 230px;
+    height: 200px;
+}
+
+.banderaMex{
+  background-image: url("../img/mexico.png");
+    background-size: 300px 250px;
+}
+.banderaLon{
+  background-image: url("../img/londres.jpg");
+    background-size: 300px 250px;
+}
+.banderaPar{
+  background-image: url("../img/paris.jpg");
+    background-size: 300px 250px;
+}
+.banderaTok{
+  background-image: url("../img/tokyo.jpg");
+background-size: 300px 250px;
+}

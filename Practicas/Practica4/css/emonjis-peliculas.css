@@ -1,0 +1,40 @@
+body {
+  background-color:#B9EEFF;
+;
+  font-family: sans-serif;
+}
+
+h1 {
+    background: black;
+    color: #2998BC;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 2rem;
+}
+img{
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-left: 20px;
+}
+
+p.intro {
+  color: hsl(35, 100%, 50%);
+}
+
+summary {
+  font-size: 4rem;
+}
+
+span.par {
+  background-color: white;
+}
+
+span.impar {
+  background-color: #1481A4;
+}
+details{
+    margin-left: 10%;
+}

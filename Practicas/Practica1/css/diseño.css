@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box; 
+}
+body{
+    background: #EDF4F4;
+    font-family: tahoma;
+    padding-top: 100px;
+    line-height: 2;
+    color: black;
+    font-size: 30px;
+}
+
+header img{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+header{
+    width: 100%;
+    height: 120px;
+    background: #4688A7;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    transition: all 0.5 ease;
+}
+/**Encabezado*/
+header h1{
+    font-size: 40px;
+    color: white;
+    line-height: 120px;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+header h1{
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+/**texto nombre y pdf*/
+h1{
+    font-size: 40px;
+}
+/** fechas linea de tiempo*/
+h2{
+    font-size: 50px;
+    font-family: tahoma;
+}
+
+/**PIE DE PAGINA*/
+p{
+    line-height: 1;
+    color: whitesmoke;
+    font-size: 50px;
+}
+footer{
+    
+    height max-width:100%;
+    min-height:100px;
+    background-color: #04091e;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    /**crece internamente*/
+    box-sizing: border-box;
+    font-size: 31px;
+}
+
+
+
+
+
